@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cy6noboc2th8h"]
+
+[ext_resource type="PackedScene" uid="uid://cpg65ojygyq61" path="res://assets/doorway.blend" id="1_14gom"]
+
+[node name="doorway2" unique_id=2033385619 instance=ExtResource("1_14gom")]

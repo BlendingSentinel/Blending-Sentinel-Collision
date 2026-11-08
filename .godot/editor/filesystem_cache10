@@ -1,0 +1,15 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1794126899
+doorway.tscn::PackedScene::6522183721373784845::1794126460::0::1::::<><><>0<>0<><>::uid://cpg65ojygyq61::::res://assets/doorway.blend
+readme.md::TextFile::-1::1794126135::0::1::::<><><>0<>0<><>::
+test_scene.tscn::PackedScene::3470208941952780875::1794126024::0::1::::<><><>0<>0<><>::uid://cy6noboc2th8h::::res://doorway.tscn<>uid://cfk85xnyl04gd::::res://test_player/player.tscn
+::res://addons/::1794123890
+::res://addons/blending_sentinel_collision/::1794125841
+bsc_importer.gd::GDScript::1743321561217558022::1794125841::0::1::::<>EditorScenePostImport<><>0<>1<><>::
+plugin.cfg::TextFile::-1::1794124403::0::1::::<><><>0<>0<><>::
+plugin.gd::GDScript::4564474884619860209::1794124029::0::1::::<>EditorPlugin<><>0<>1<><>::
+::res://assets/::1794125857
+doorway.blend::PackedScene::5839996839403526616::1794124605::1794126901::1::::<><><>0<>0<>490be0c41ab753eaf4be91a70823869e<>res://.godot/imported/doorway.blend-b91ae97496bf996bdbee035114f3bf80.scn::
+::res://test_player/::1794125519
+player.gd::GDScript::4062371724179648349::1794125519::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::5146487826921078907::1794125209::0::1::::<><><>0<>0<><>::uid://bx43w0dvgjpmb::::res://test_player/player.gd

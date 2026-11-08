@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bpo83moffkj4n"]
+
+[ext_resource type="PackedScene" uid="uid://cy6noboc2th8h" path="res://doorway.tscn" id="1_uhqqe"]
+[ext_resource type="PackedScene" uid="uid://cfk85xnyl04gd" path="res://test_player/player.tscn" id="2_ia1lp"]
+
+[node name="Node3D" type="Node3D" unique_id=918705463]
+
+[node name="doorway2" parent="." unique_id=962489851 instance=ExtResource("1_uhqqe")]
+
+[node name="Player" parent="." unique_id=1008383347 instance=ExtResource("2_ia1lp")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 4.17663, 16.101997)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1950601430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5054108, 0)
+use_collision = true
+size = Vector3(100, 1, 100)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1012696371]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, 0.5, 0, -0.5, 0.8660254, 0, 40, 0)
